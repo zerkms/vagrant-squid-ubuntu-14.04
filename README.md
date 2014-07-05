@@ -1,4 +1,4 @@
-A simple `Vagrant` image with squid setup for ones who provision their machines frequently and want to save some time and traffic.
+A simple `Vagrant` VM with squid setup for ones who provision their machines frequently and want to save some time and traffic.
 
 How to use
 ---
