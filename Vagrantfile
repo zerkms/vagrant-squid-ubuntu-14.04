@@ -13,6 +13,7 @@ apt-get update
 apt-get install squid -y --no-install-recommends
 stop squid3
 
+mkdir /vagrant/cache -p
 mv /etc/squid3/squid.conf /etc/squid3/squid.conf.orig
 cp /vagrant/squid.conf /etc/squid3/squid.conf
 sed -i "/vagrant\\/cache/d" /etc/init/squid3.conf
